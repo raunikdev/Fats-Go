@@ -232,4 +232,7 @@ html{
     margin-bottom: 30px;
     font-family: arial;
   }
+  li{
+    padding: 0 5px;
+  }
 }
