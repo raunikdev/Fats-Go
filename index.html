@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FatsGo</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="img/logo.png">
+</head>
+<body>
+  <header class="header">
+    <p class="fatshead">Fats Go</p>
+    <ul>
+      <li onclick="homefunction()">Home</li>
+      <li onclick="calculatefunction()">Calculate</li>
+    </ul>
+  </header>
+  <div id="home">
+    <div class="subhome">
+      <p class="moto">Our Mission is your better Health.</p>
+      <p class="start-now">
+        Want to know how much fat and protein is in your food?
+      </p>
+      <button class="start-button" onclick = "calculatefunction()">Start Now</button>
+    </div>
+    <div id="calculate-div">
+      <p class="search-title">Search a dish for Nutrition</p>
+      <div id="calculate">
+        <input type="search" class="input" placeholder="Search Something..."><img src="img/search.png" id="search" onclick="searchfunction()">
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
